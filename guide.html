@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Make Your Own Delta Skin on iPhone — No PC, No JSON | Kawapad</title>
+<meta name="description" content="You can design a custom Delta emulator controller skin entirely on your iPhone with Kawapad — a free app with drag-and-drop button placement. No computer, no JSON editing, no image editor.">
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; background:#12101a; color:#e8e4f3; margin:0; padding:2rem 1.25rem 4rem; line-height:1.65; }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.2rem; color:#c9a8ff; }
+  h3 { font-size: 1rem; margin-top: 1.6rem; }
+  a { color:#c9a8ff; }
+  .sub { color:#a79fc0; margin-top:0; }
+  ol, ul { padding-left: 1.4rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>How to Make Your Own Delta Skin on iPhone</h1>
+<p class="sub">No PC, no JSON, no image editor — Kawapad: Delta Skin Editor</p>
+
+<h2>Can you make a Delta skin without a computer?</h2>
+<p>Yes. <strong>Kawapad is a free iOS app that lets you design custom controller skins for the Delta emulator entirely on your iPhone.</strong> Until now, making a Delta skin meant a desktop workflow: drawing artwork in an image editor and hand-writing an <code>info.json</code> file with button coordinates. Kawapad replaces that with drag-and-drop editing on a fullscreen canvas, at the real size of your phone.</p>
+<p><em>Status: Kawapad is coming soon to the App Store. This guide describes the v1.0 release, which supports Game Boy Advance (GBA) skins.</em></p>
+
+<h2>What you need</h2>
+<ul>
+  <li>An iPhone with the Delta emulator installed</li>
+  <li>Kawapad (free) — no account, no sign-up</li>
+  <li>Nothing else: no computer, no JSON editor, no drawing app</li>
+</ul>
+
+<h2>Step by step: make a skin in Kawapad</h2>
+<ol>
+  <li><strong>Pick the GBA template.</strong> Kawapad starts from Delta's own layout geometry, in portrait and landscape.</li>
+  <li><strong>Drag the buttons where your thumbs want them.</strong> Buttons snap to a grid on the fullscreen canvas. Resize them, and the touch area always matches the artwork — in Kawapad the button art and its touch frame are one thing, so they can never drift apart.</li>
+  <li><strong>Choose the look.</strong> Apply the standard theme, or use your own photo as the background.</li>
+  <li><strong>Add action buttons (optional).</strong> Kawapad can place fast-forward, toggle fast-forward, quick save and quick load buttons — buttons most downloaded skins don't offer.</li>
+  <li><strong>Export.</strong> Tap Build/Share. Kawapad produces a standard <code>.deltaskin</code> file containing both portrait and landscape.</li>
+</ol>
+
+<h2>How do I import the skin into Delta?</h2>
+<ol>
+  <li>In Kawapad, tap Build/Share.</li>
+  <li>In the iOS share sheet, tap <strong>Delta</strong> — the skin is imported into Delta right away.</li>
+  <li>In Delta, open Settings &gt; Controller Skins and select your skin for GBA.</li>
+</ol>
+<p>If Delta doesn't appear in the share sheet, save the file to Files instead, then import it from the <strong>+</strong> button in Delta's Controller Skins settings.</p>
+
+<h2>Questions</h2>
+
+<h3>Is Kawapad free?</h3>
+<p>Yes. At launch, everything in Kawapad is free — the full editor, all layouts, unlimited projects and exports, photo backgrounds, action buttons and the standard theme — with no ads. Premium themes are planned as optional extras in a later update; nothing that is free will become paid.</p>
+
+<h3>Which systems does Kawapad support?</h3>
+<p>Game Boy Advance (GBA) at launch. Templates for more systems are planned for later updates.</p>
+
+<h3>Can I edit an existing .deltaskin file in Kawapad?</h3>
+<p>No. A finished <code>.deltaskin</code> is one flat artwork image with the buttons baked in, so its buttons cannot be moved without breaking the artwork. Kawapad builds new skins from a template and a theme instead.</p>
+
+<h3>Does Kawapad include games or ROMs?</h3>
+<p>No. Kawapad only creates controller skin files. It contains no emulator and no games.</p>
+
+<h3>Is Kawapad affiliated with Delta?</h3>
+<p>No. Kawapad is an independent app. It makes skin files in the standard <code>.deltaskin</code> format for use with the Delta emulator.</p>
+
+<h3>Why is there a small "Kawapad" mark on exported skins?</h3>
+<p>Exports carry a small credit mark, placed automatically where it does not overlap buttons. It is how people who see your skin can find the app that made it.</p>
+
+<p style="margin-top:3rem"><a href="index.html">Support &amp; FAQ</a> · <a href="privacy.html">Privacy Policy</a></p>
+</main>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "28323faa7dec492497154507c8bb8b83"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
